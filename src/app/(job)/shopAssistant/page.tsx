@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 
-export default function Rahexx() {
+export default function ShopAssistant() {
   const router = useRouter();
 
   return (
