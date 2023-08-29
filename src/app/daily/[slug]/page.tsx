@@ -32,3 +32,10 @@ export default function Daily({ params }: { params: { slug: string } }) {
     </>
   );
 }
+
+export async function generateStaticParams() {
+  // You can fetch some posts and pass here
+  //   const posts = await fetch('https://.../posts').then((res) => res.json());
+
+  return [{ slug: 1 }, { slug: 2 }, { slug: 3 }];
+}
