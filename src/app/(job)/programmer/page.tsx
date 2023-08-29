@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Programmer() {
   const router = useRouter();
-
+  throw new Error('Show Error page');
   return (
     <>
       <p>Jesteś w segmencie programmer</p>
