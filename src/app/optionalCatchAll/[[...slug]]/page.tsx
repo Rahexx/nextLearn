@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 
-export default function CatchAll({ params }: { params: { slug: string } }) {
+export default function CatchAll({ params }: { params: { slug: string[] } }) {
   const router = useRouter();
 
   return (
