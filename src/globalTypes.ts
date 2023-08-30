@@ -1,0 +1,1 @@
+export type reactNode = React.ReactNode
