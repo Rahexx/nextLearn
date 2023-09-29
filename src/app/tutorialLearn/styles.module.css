@@ -1,0 +1,9 @@
+.lenovoNav {
+  margin: 10px 0;
+  padding: 20px 10px;
+  background-color: cornflowerblue;
+}
+
+.lenovoNavItem {
+  margin: 3px 10px;
+}
