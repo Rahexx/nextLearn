@@ -17,6 +17,9 @@ export default function TutorialLayout({
         <Link href='/tutorialLearn/lenovo' className={styles.lenovoNavItem}>
           Go to Lenovo page
         </Link>
+        <Link href='/tutorialLearn/pokemon' className={styles.lenovoNavItem}>
+          Go to Pokemon page
+        </Link>
       </div>
       {children}
     </>
